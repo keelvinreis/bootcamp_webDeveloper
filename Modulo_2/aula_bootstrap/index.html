@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/Modulo_2/aula_bootstrap/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/Modulo_2/aula_bootstrap/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="/Modulo_2/aula_bootstrap/img/carrefour.png" alt="logo do carrefour" width="80" height="80">
+    </a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#quemsomos">Quem somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#parceiros">Parceiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <section id="quemsomos">
+    <div class="container-fluid quem-somos text-center margin">
+      <h3 class="margin">Quem somos</h3>
+      <div class="margin">
+        <img src="/Modulo_2/aula_bootstrap/img/equipe.jpg" alt="equipe quem somos nós">
+        <!-- rounded-circle padding" width="200" height="200" -->
+        <h3>Somos uma equipe comprometida com resultados</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="parceiros">
+    <div class="container-fluid text-center margin parceiros">
+      <h3 class="margin">Parceiros</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 margin">
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM5IiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTM5IDUwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTAuNyAwSDguOUM2LjcgMCA1IDEuNiA1IDMuOVY2LjFDNSA4LjQgNi44IDEwIDguOSAxMEgxMC43QzEyLjkgMTAgMTQuNiA4LjQgMTQuNiA2LjFWMy45QzE0LjYgMS42IDEyLjkgMCAxMC43IDBaIiBmaWxsPSIjRkY3QTAwIi8+CjxwYXRoIGQ9Ik00MC40IDEzLjlDMzQuOSAxMy45IDMxLjQgMTYuOCAyOS43IDIwTDI5LjQgMTQuN0gyMS4yVjQ4LjdIMjkuNzk5OVYyOS45QzI5Ljc5OTkgMjQuMiAzMi44IDIwLjkgMzcuNCAyMC45QzQyIDIwLjkgNDMuNzk5OSAyMy44IDQzLjc5OTkgMjlWNDguN0g1Mi4yOTk5VjI2LjlDNTIuMTk5OSAxOS4yIDQ4LjggMTMuOSA0MC40IDEzLjlaIiBmaWxsPSIjRkY3QTAwIi8+CjxwYXRoIGQ9Ik0wIDIxLjhINS43VjQ4LjhIMTQuMlYxNC44SDBWMjEuOFoiIGZpbGw9IiNGRjdBMDAiLz4KPHBhdGggZD0iTTk2LjMgMTMuOUM4NS42IDEzLjkgNzkgMjAuOSA3OSAzMS4zVjMyLjJDNzkgNDIuNiA4NS41IDQ5LjYgOTYuMyA0OS42QzEwNS4xIDQ5LjYgMTEwLjkgNDUuMSAxMTIuNiAzOEgxMDQuMUMxMDMuMSA0MC45IDEwMC43IDQyLjkgOTYuMyA0Mi45QzkxLjIgNDIuOSA4OC4yIDM5LjggODcuNyAzMy43SDExMi43QzExMy40IDIyIDEwNy43IDEzLjkgOTYuMyAxMy45Wk04OCAyNy45Qzg4LjggMjMgOTEuNiAyMC41IDk2LjMgMjAuNUMxMDEuMSAyMC41IDEwMy42IDIzLjMgMTA0LjEgMjcuOUg4OFoiIGZpbGw9IiNGRjdBMDAiLz4KPHBhdGggZD0iTTY2LjcwMDEgMzguM1YyMS44SDc1LjcwMDFWMTQuOEg2Ni43MDAxVjMuMjAwMDFINTguMTAwMVYzOS4yQzU4LjEwMDEgNDYgNjEuOTAwMSA0OS42IDY5LjgwMDEgNDkuNkM3MS44MDAxIDQ5LjYgNzQuMjAwMSA0OS4zIDc1LjgwMDEgNDguN1Y0MkM3NC45MDAxIDQyLjMgNzMuMzAwMSA0Mi43IDcxLjcwMDEgNDIuN0M2OC4wMDAxIDQyLjggNjYuNzAwMSA0MS40IDY2LjcwMDEgMzguM1oiIGZpbGw9IiNGRjdBMDAiLz4KPHBhdGggZD0iTTEzNi44IDE0LjJDMTMxLjkgMTQuMiAxMjguNCAxNy4xIDEyNi43IDIxLjRMMTI2LjUgMTQuOEgxMTguM1Y0OC44SDEyNi45VjMxLjlDMTI2LjkgMjUuNCAxMjkuOSAyMS43IDEzNi40IDIxLjdDMTM3LjMgMjEuNyAxMzguMiAyMS44IDEzOC44IDIxLjhWMTQuM0MxMzguMiAxNC4yIDEzNy40IDE0LjIgMTM2LjggMTQuMloiIGZpbGw9IiNGRjdBMDAiLz4KPC9zdmc+Cg== ">
+          </div>
+          <div class="col-lg-4 margin">
+            <img src="https://hermes.digitalinnovation.one/home/logos/santander.svg ">
+          </div>
+          <div class="col-lg-4 margin">
+            <img src="https://hermes.digitalinnovation.one/files/assets/3f4217c5-e607-4670-b386-e29759170223.png"
+              width="180" height="50">
+          </div>
+          <div class="col-lg-4 margin">
+            <img src="https://hermes.digitalinnovation.one/home/logos/impulso.svg">
+          </div>
+          <div class="col-lg-4 margin">
+            <img src="https://hermes.digitalinnovation.one/home/logos/localiza.svg">
+          </div>
+          <div class="col-lg-4 margin">
+            <img src="https://hermes.digitalinnovation.one/home/logos/gft-original.png">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container-fluid text-center margin servicos">
+      <h3 class="margin">Serviços</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam totam itaque explicabo deserunt. Totam
+              fugiat a voluptate beatae placeat ipsam ut, ullam id in quo ducimus, accusantium autem alias aperiam.</p>
+            <img src="/Modulo_2/aula_bootstrap/img/desenvolver.jpg" width="100%">
+          </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, eum. Error sint provident vero quis
+              placeat ducimus. Dolorem error necessitatibus, quas minus facilis nihil vero rerum culpa, repellat ipsum
+              ipsam.</p>
+            <img src="/Modulo_2/aula_bootstrap/img/home-of.jpg " width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center bg-footer padding">
+    <p>Desenvolvido por Kelvin Reis Web-Developer_Carrefour &copy;</p>
+  </footer>
+</body>
+
+</html>
